@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Country Flag Demo</title>
+<link rel="stylesheet" type="text/css" href="flags.css" />
+<style type="text/css">
+ul { list-style-type: none; margin: 0 2em; padding: 0; }
+code { font-size: 120%; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<h1>CSS Country Flag Demo</h1>
+
+<p>The flags are all part of a single image:</p>
+
+<p><img src="flags.png" width="211" height="211" alt="flags" /></p>
+
+<p>
+The names follow the standard <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2</a>
+codes. Include <a href="flags.css">the CSS</a>, add the proper class names to any
+element, and you'll get the flag.
+</p>
+
+<p>e.g., <code>&lt;span class="us flag"&gt;&lt;/span&gt;</code></p>
+
+<ul>
+  <li><a class="ca flag" title="Canada"></a> Canada</li>
+  <li><a class="mx flag" title="Mexico"></a> Mexico</li>
+  <li><a class="us flag" title="USA"></a> USA</li>
+</ul>
+
+<p>It will work in any modern browser. If you need to work with IE 7 or worse,
+you may need to adjust the CSS to use floats and blocks&mdash;or some other
+CSS sprite sheet technique that is known to work.</p>
+
+<p>The flag images were obtained <a href="http://www.famfamfam.com/lab/icons/flags/">from here</a>.</p>
+
+</body>
+</html>
